@@ -55,5 +55,5 @@
     "@types/react-helmet": "^6.1.6",
     "gh-pages": "^5.0.0"
   },
-  "homepage": "https://jsdmas.github.io/sdmas.github.io/"
+  "homepage": "https://sdmas.github.io/"
 }
