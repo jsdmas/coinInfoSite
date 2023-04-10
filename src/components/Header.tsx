@@ -49,7 +49,7 @@ const Header = ({ mainTitle }: ITitle) => {
                 {/* backSpaceBtn */}
                 <BtnStyle onClick={() => navigate(-1)}> &larr; </BtnStyle>
                 {/* homeBtn */}
-                {pathname === "/CoinPage" ? null : <BtnStyle onClick={() => navigate("/CoinPage")}>Home</BtnStyle>}
+                {pathname === "/" ? null : <BtnStyle onClick={() => navigate("/")}>Home</BtnStyle>}
                 {/* dark on/off */}
                 <BtnStyle onClick={toggleDarkAtom}> {isDark ? "☀︎" : "☽"} </BtnStyle>
             </PageHeader>

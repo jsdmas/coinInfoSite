@@ -6,10 +6,10 @@ import Price from "./routes/Price";
 
 const Router = () => {
     return (
-        <BrowserRouter >
+        <BrowserRouter basename="/reactcoin">
             <Routes>
-                <Route path="/CoinPage" element={<Home />} />
-                <Route path="/CoinPage/:coinId" element={<Coin />}>
+                <Route path={`/`} element={<Home />} />
+                <Route path={`/:coinId`} element={<Coin />}>
                     <Route path="chart" element={<Chart />} />
                     <Route path="price" element={<Price />} />
                 </Route>
